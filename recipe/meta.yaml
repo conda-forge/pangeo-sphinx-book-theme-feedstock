@@ -20,8 +20,8 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
-    - sphinx
-    - sphinx-book-theme <=0.1.7
+    - sphinx >=3,<5
+    - sphinx-book-theme
 
 test:
   imports:
@@ -40,4 +40,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - meghanrjones
+    - maxrjones
